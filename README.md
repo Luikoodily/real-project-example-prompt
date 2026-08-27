@@ -1,1 +1,0 @@
-# real-project-example-prompt
