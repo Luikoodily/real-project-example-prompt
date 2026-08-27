@@ -1,70 +1,66 @@
-AI Agents and System Investigation
+Absolutely. I’d make it **more personal and conversational**, like you’re talking directly to developers, instead of sounding like an AI-generated technical article.
 
-🚀 Most people prompt AI agents one shot at a time.
+Here’s a copy-paste version:
 
-For real system work, that approach often fails.
+---
 
-When you're working with a large codebase, complex architecture, or an unfamiliar system, the goal shouldn't immediately be:
+# AI Agents & Prompt Engineering 🚀
 
-"Build me X."
+Guys, I know most of you are using AI like this:
 
-Instead, the first goal should be:
+> “Here is my requirement. Build this.”
 
-"Prove the architecture before writing any code."
+And then another prompt:
 
-That's why I use a multi-agent R&D investigation workflow before implementation.
+> “Fix this.”
 
-🔒 HARD BOUNDARY
+And another:
 
-Read-only. Zero implementation.
+> “Now change this.”
 
-🔄 WORKFLOW
+Instead of doing everything one prompt at a time, try a little **prompt engineering**.
 
-Bootstrap → Parallel Investigation → Cross-cutting Analysis → Synthesis
+It’s honestly not that complicated.
 
-Each wave is gated. The next wave cannot start until the previous artifacts are verified.
+If you're using **Cursor, Claude, GitHub Copilot, OpenAI, or any other AI coding agent**, try asking the AI to first **understand the project, investigate the architecture, break the work into different areas, and create a proper R&D plan** before writing any code.
 
-🔍 EVIDENCE-DRIVEN REASONING
+For example, the prompt I'm sharing here is from a **real project I'm working on**.
 
-Every claim is explicitly classified as:
+I asked the AI to investigate the system first instead of immediately implementing the feature.
 
-VERIFIED · INFERENCE · PROPOSED · UNKNOWN
+And the interesting part?
 
-No guessing and presenting it as fact.
+👉 My prompt is currently using **14 sub-agents** to investigate different parts of the system.
 
-⚖️ CONFLICT RESOLUTION
+They analyze things like:
 
-When agents disagree:
+* Architecture
+* APIs
+* Database
+* State management
+* Testing
+* Security
+* Risks
+* Cross-repository dependencies
 
-Source code > Documentation > Inference
+Then another agent brings everything together and creates the final architecture.
 
-🏗️ ARCHITECTURE BEFORE IMPLEMENTATION
+So don't think:
 
-The process forces the agents to produce:
+> “I need to write all this code myself.”
 
-• Decision tables
-• Mermaid architecture diagrams
-• Module boundaries
-• Risks and unknowns
-• V1 scope
-• Implementation boundaries
+Instead, think:
 
-Only after these artifacts are reviewed does the system become ready for implementation.
+> **“How can I make the AI understand the problem properly before it starts coding?”**
 
-The interesting part isn't simply using multiple AI agents.
+I'm adding the carousel with the idea behind this workflow.
 
-It's giving them a structured investigation process with evidence, gates, and explicit boundaries.
+If you want to see the **actual real-world prompt**, I'm also sharing it on my GitHub.
 
-That changes the AI from:
+If you have questions or think there's a better way to do this, **drop a comment**.
 
-🤖 "Generate some code."
+I'll try to answer from what I've learned, and maybe other developers can share their approach too. 👇
 
-into:
+**Use AI agents. But first, learn how to talk to them properly.**
 
-🧠 "Investigate the system, build an evidence-backed understanding, resolve uncertainty, and tell me what should actually be built."
-
-AI-assisted development isn't just about generating more code.
-
-It's also about making better engineering decisions before the code is written.
-
-#AI #AIAgents #SoftwareEngineering #R&D #SystemArchitecture #DeveloperTools #GenAI #CodingAgents
+#AI #AIAgents #PromptEngineering #SoftwareEngineering #Cursor #GitHubCopilot #OpenAI #DeveloperTools #CodingAgents #R&D
